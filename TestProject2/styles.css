@@ -1,0 +1,89 @@
+body {
+  background-image: linear-gradient(#4E7DDE, white);
+  font-family: "Montserrat";
+  overflow-x: hidden;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  padding: 10px;
+  color: black;
+}
+
+.intro{
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+    url(images/bucket.PNG);
+    padding: 300px 0;
+}
+
+.navbar {
+  background-color: #4E7DDE;
+}
+
+.navbar-brand {
+  padding-left: 10px;
+}
+
+.excavator {
+  height: 40px;
+  width: 40px;
+}
+
+.solutions-title {
+  background-color: #4E7DDE;
+  padding: 18px 0 18px 0;
+  font-weight: bold;
+  color: white;
+}
+
+.solutions {
+  text-align: center;
+}
+
+.icon {
+  height: 120px;
+  width: 120px;
+  padding: 20px;
+  color: white;
+}
+
+.solution-type {
+  padding: 10px;
+}
+
+.experience-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+.experience {
+  text-align: center;
+  padding: 10px;
+}
+
+.experience-para {
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  h1 {
+    font-size: 200%;
+  }
+}
+
+@media (max-width: 1028px) {
+  .intro {
+    height: 400px;
+  }
